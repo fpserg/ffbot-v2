@@ -17,7 +17,7 @@ bot.start(ctx => {
         'Hi! Send me a ticker',
         getMainMenu())
 })
-
+/*
 bot.hears('Мои задачи', async ctx => {
     const tasks = await getMyTasks()
     let result = ''
@@ -53,7 +53,7 @@ bot.hears('Смотивируй меня', ctx => {
         }
     )
 })
-
+*/
 bot.on("text", async ctx => {
     if (!ctx.session) {
         ctx.session = {};
